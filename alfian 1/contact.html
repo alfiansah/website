@@ -1,0 +1,164 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>contact</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<script type="text/javascript" src="js/jquery.core.js"></script>
+<script type="text/javascript" src="js/jquery.superfish.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script type="text/javascript" src="js/jquery.scripts.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle(3000);
+  });
+});
+
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style type="text/css"> 
+#panel,#flip
+{
+padding:5px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+#panel
+{
+padding:50px;
+display:none;
+}
+</style>
+
+</head>
+<body>
+<div id="wrap">
+    <div class="top_corner"></div>
+    <div id="main_container">
+    
+        <div id="header">
+            <div id="logo"><a href="index.html"><img src="images/logo.jpg" alt="" title="" border="0" /></a></div>
+            
+            <a href="make-a-donation.html" class="make_donation"></a>
+            
+            <div id="menu">
+                <ul>                                                                                            
+                    <li><a href="index.html" title="">Home</a></li>
+                    <li><a href="about.html" title="">About Us and Terms &amp; Conditions</a></li>
+                    <li><a href="galery.html" title="">Galery</a></li>
+                    <li><a class="current" href="contact.html" title="">Contact</a></li>
+					<li><a href="order.html" title="">Order</a></li>
+                </ul>
+            </div>
+            
+        
+        </div>
+        
+        
+        <div class="center_content_pages">
+        
+              <div class="financial-application-form">
+             <h2>Contact Us</h2>
+             
+			 <div id="flip">Tekan untuk mendaptkan Keterangan</div>
+			<div id="panel">Silakan gunakan form dibawah ini untuk mengirim pesan atau komentar kepada Customer Support Hexa Rental Mobil, Untuk mendapat balasan/respon, pastikan Anda menyertakan alamat email yang valid. Pesan yang Anda tulis pada form ini akan dikirm langsung kepada Customer Support Hexa Rental Mobil</div>
+             
+             
+                <div class="form">
+                    <div class="form_row">
+                    <label>Name:</label>
+                    <input type="text" name="name" class="main_input" />
+                    </div>
+                    
+                    <div class="form_row">
+                    <label>Email:</label>
+                    <input type="email" name="email" class="main_input" />
+                    </div> 
+                    
+                    <div class="form_row">
+                    <label>phone Number:</label>
+                    <input type="text" name="telp" class="main_input" />
+                    </div> 
+                      
+                    <div class="form_row">
+                    <label>Address:</label>
+                    <textarea class="main_textarea"></textarea>
+                    </div> 
+                    
+                    <div class="form_row">
+                    <label>massage:</label>
+                    <textarea class="main_massage"></textarea>
+                    </div> 
+					
+                    <div class="form_row" align="right">
+                     <button type="submit" class="submit" onclick="fungsinama('Anda ','di kirim')">Send</button>
+                    </div>
+                
+                </div>
+             </div>
+            
+             <div class="testimonials">
+                    <h2>Hexa Rental Mobil </h2>
+					<p>Jl. Mahoni 6B Kemayoran, Jakarta Pusat </p>
+					<p>email : info@hexarentalmobil.com </p>
+                    <p>Tlp1 : 021-99001089</p>
+					<p>Tlp2 : 085883229911</p>
+					<p>BB pin : 2142C8DA</p>
+					<br><br> 
+					
+					
+					<p>Sembunyikan atau Menampilkan Gambar Kami</p>
+					<button>Click</button>
+					<br><br>
+
+					<a><div id="div1" style="width:80px;height:80px;"><img src="images/p1.jpg" width="180" height="90" class="projects></div></a>
+					<br>
+					<a href="#"><img src="images/p2.jpg" width="180" height="90" alt="" title="" border="0" class="projects" /></a>
+                    <a href="#"><img src="images/p3.jpg" width="180" height="90"alt="" title="" border="0" class="projects" /></a>
+                    <a href="#"><img src="images/p4.jpg" width="180" height="90"alt="" title="" border="0" class="projects" /></a>
+                                
+                    
+             </div>
+        
+        
+        
+   
+        
+        <div class="clear"></div>
+        </div>
+        
+        <div class="footer">
+        	<div class="copyright"><a href="https://www.facebook.com/alfiansahts" target="_blank">Alfiansah Trisaputra</a> | <a href="https://www.facebook.com/hagaripf" target="_blank">Hagari Pandu Firdaus</a></div>
+        
+        	<div class="footer_links">
+               <a href="https://www.facebook.com/" title=""><img src="images/icon-1.png" alt="Facebook" title="Facebook" border="0"></a>
+               <a href="https://www.twitter.com/" title=""><img src="images/icon-2.png" alt="Twitter" title="Twitter" border="0"></a>
+               <a href="https://www.youtube.com/" title=""><img src="images/icon-3.png" alt="youtube" title="YouTube" border="0"></a>
+               <a href="http://instagram.com/" title=""><img src="images/icon-4.png" alt="instagram" title="Instagram" border="0"></a>
+			   <a href="https://path.com/" title=""><img src="images/icon-5.png" alt="path" title="Path" border="0"></a>        
+            </div>
+        </div>
+      
+    
+    </div>
+</div>
+
+<script>
+		function fungsinama(nama,status)
+		{
+				alert("Pesan "+nama+"telah "+status);
+		}
+	</script>
+</body>
+</html>
